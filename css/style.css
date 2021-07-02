@@ -1,0 +1,111 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+header, footer {
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li {
+    display: list-item;
+}
+section {
+    width: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    height: 350px;
+    display: block;
+}
+section.envio {
+    background-image: url(../img/delivery.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2 {
+    color: #FC200C;
+    margin: 0;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2 span {
+    color: #FFFFFF;
+}
+section.podio {
+    background-color: #FFFFFF;
+}
+section.podio h2 {
+    text-align: center;
+}
+section.podio > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+section.podio ol {
+    font-weight: bold;
+    padding: 0;
+}
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+footer ul {
+    flex-direction: column;
+}
+ul {
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    list-style-type: none;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+header, footer {
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    background-color: #E5E5E5;
+    gap: 10px;
+}
+body > * {
+    padding: 20px;
+}
